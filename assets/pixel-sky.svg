@@ -126,27 +126,63 @@
   <rect x="170" y="127" width="860" height="3" fill="#F7A6C4" opacity=".55"/>
   <rect x="170" y="256" width="860" height="3" fill="#A8E6CF" opacity=".55"/>
 
-  <!-- MAGICAL NAME -->
-  <text x="604" y="214"
-        text-anchor="middle"
-        font-family="'Press Start 2P', monospace"
-        font-size="78"
-        font-weight="900"
-        letter-spacing="3"
-        fill="#742647"
-        opacity=".8">ZEYNEP ÖZGE</text>
+  
+<!-- MAGICAL 8-BIT PIXEL NAME -->
+<defs>
+  <g id="letter-Z">
+    <path d="M0 0h5v1H0z M4 1h1v1H4z M3 2h1v1H3z M2 3h1v1H2z M1 4h1v1H1z M0 5h1v1H0z M0 6h5v1H0z"/>
+  </g>
+  <g id="letter-E">
+    <path d="M0 0h5v1H0z M0 1h1v2H0z M0 3h4v1H0z M0 4h1v2H0z M0 6h5v1H0z"/>
+  </g>
+  <g id="letter-Y">
+    <path d="M0 0h1v2H0z M4 0h1v2H4z M1 2h1v1H1z M3 2h1v1H3z M2 3h1v4H2z"/>
+  </g>
+  <g id="letter-N">
+    <path d="M0 0h1v7H0z M4 0h1v7H4z M1 1h1v1H1z M2 2h1v1H2z M3 3h1v1H3z"/>
+  </g>
+  <g id="letter-P">
+    <path d="M0 0h4v1H0z M0 1h1v6H0z M4 1h1v2H4z M1 3h3v1H1z"/>
+  </g>
+  <g id="letter-O">
+    <path d="M1 0h3v1H1z M0 1h1v5H0z M4 1h1v5H4z M1 6h3v1H1z"/>
+  </g>
+  <g id="letter-OU">
+    <use href="#letter-O"/>
+    <rect x="1" y="-2" width="1" height="1"/>
+    <rect x="3" y="-2" width="1" height="1"/>
+  </g>
+  <g id="letter-G">
+    <path d="M1 0h4v1H1z M0 1h1v5H0z M2 3h3v1H2z M4 4h1v2H4z M1 6h3v1H1z"/>
+  </g>
+</defs>
 
-  <text x="600" y="210"
-        text-anchor="middle"
-        font-family="'Press Start 2P', monospace"
-        font-size="78"
-        font-weight="900"
-        letter-spacing="3"
-        fill="#FF9ECF">ZEYNEP ÖZGE
-    <animate attributeName="fill"
-      values="#FF9ECF;#FFD6ED;#FF9ECF"
-      dur="4s" repeatCount="indefinite"/>
-  </text>
+<!-- PIXEL TEXT -->
+<g transform="translate(228 157) scale(12)"
+   fill="#FF9ECF"
+   shape-rendering="crispEdges">
+
+  <use href="#letter-Z" x="0"/>
+  <use href="#letter-E" x="6"/>
+  <use href="#letter-Y" x="12"/>
+  <use href="#letter-N" x="18"/>
+  <use href="#letter-E" x="24"/>
+  <use href="#letter-P" x="30"/>
+
+  <use href="#letter-OU" x="39"/>
+  <use href="#letter-Z" x="45"/>
+  <use href="#letter-G" x="51"/>
+  <use href="#letter-E" x="57"/>
+
+  <!-- ANIMATED PINK GLOW -->
+  <animate
+    attributeName="fill"
+    values="#FF9ECF;#FFD6ED;#FF9ECF"
+    dur="4s"
+    repeatCount="indefinite"
+  />
+</g>
+
 
   <!-- SPARKLES AROUND NAME -->
   <g transform="translate(209 184)">
