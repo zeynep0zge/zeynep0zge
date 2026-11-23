@@ -3,7 +3,7 @@
 
   <!-- MAGICAL PIXEL HEADER -->
   <img
-    src="./assets/pixel-sky.svg"
+    src="https://raw.githubusercontent.com/zeynep0zge/zeynep0zge/main/assets/pixel-sky.svg?v=5"
     width="100%"
     alt="Zeynep Ozge Magical Animated Pixel Garden"
   />
