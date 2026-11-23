@@ -21,7 +21,7 @@
 
 <a href="https://git.io/typing-svg">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=3200&pause=1000&color=06FFA5&center=true&vCenter=true&width=650&lines=%3E+Full+Stack+AI+Developer_;%3E+Clean+Architecture+%26+AI_;%3E+Building+FlowDesk...;%3E+Data+speaks+to+those+who+ask_"
+    src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=3200&pause=1000&color=06FFA5&center=true&vCenter=true&width=650&lines=%3E+DevOps+Engineering_;%3E+Clean+Architecture+%26+AI_;%3E+Data+speaks+to+those+who+ask_"
     alt="Typing animation"
   />
 </a>
@@ -44,10 +44,6 @@
   <a href="mailto:zeynepozge@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-a8e6cf?style=for-the-badge&logo=gmail&logoColor=2d2d2d" />
   </a>
-
-  <a href="https://github.com/zeynep0zge">
-    <img src="https://img.shields.io/badge/GitHub-c8f7dc?style=for-the-badge&logo=github&logoColor=2d2d2d" />
-  </a>
 </p>
 
 </div>
@@ -57,10 +53,9 @@
 ## 🌿 Hakkımda
 
 - ✨ **Konum:** İstanbul, Türkiye 📍
-- 🌸 **Odak:** Backend Systems, Clean Architecture & AI
-- 🚀 **Aktif Proje:** [FlowDesk](https://github.com/zeynep0zge/FlowDesk)
-- 🐛 Şu an: kod yazıyor, bug avlıyor, kahve tüketiyor
-- 🐝 Öğrenmeye devam: AI destekli sistemler
+- 🌸 **Odak:** Kubernetes, Clean Architecture & AI
+- 🐛 Şu an: Kubernetes Sistemlerinde Yapay Zeka Destekli Self-Healing Projesi ile uğraşmaktayım.
+- 🐝 Öğrenmeye devam: DevOps
 
 <img src="https://capsule-render.vercel.app/api?type=transparent&color=auto&height=2&section=header" width="100%"/>
 
